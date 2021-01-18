@@ -1,0 +1,29 @@
+{
+  "name": "nls",
+  "version": "1.0.0",
+  "description": "Simplified node.js implementation of unix ls command.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxotar/nls.git"
+  },
+  "keywords": [
+    "ls",
+    "list"
+  ],
+  "author": "Max Tarver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxotar/nls/issues"
+  },
+  "homepage": "https://github.com/maxotar/nls#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "bin": {
+    "nls": "index.js"
+  }
+}
